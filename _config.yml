@@ -1,0 +1,21 @@
+# 사이트 기본 정보
+title: "Jonghyeon Bang's Website"
+description: "I try to make my own website"
+
+# 원격 테마 선언
+remote_theme: sujaykundu777/devlopr-jekyll
+
+# 필요한 플러그인
+plugins:
+  - jekyll-remote-theme
+
+# 네비게이션 메뉴
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about/
+  - text: Projects
+    url: /projects/
+  - text: Contact
+    url: /contact/
