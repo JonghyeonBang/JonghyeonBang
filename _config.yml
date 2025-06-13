@@ -3,7 +3,7 @@ title: "Jonghyeon Bang's Website"
 description: "I try to make my own website"
 
 # 원격 테마 선언
-remote_theme: sujaykundu777/devlopr-jekyll
+remote_theme: andreondra/jekyll-theme-simplex
 
 # 필요한 플러그인
 plugins:
