@@ -1,0 +1,15 @@
+---
+# 이 Front Matter 두 줄이 꼭 필요합니다
+---
+
+@charset "utf-8";
+
+// ① 스킨(색상 테마) 불러오기 (site.minimal_mistakes_skin 변수에 따라)
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+
+// ② 테마의 메인 partials 불러오기
+@import "minimal-mistakes";
+
+// ③ 내 커스텀 스타일 (예: _sass/custom.scss에 작성)
+@import "custom";
+

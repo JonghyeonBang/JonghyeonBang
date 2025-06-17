@@ -77,14 +77,15 @@ author:
   location         : "South Korea"
 
 # Build settings
-# theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
+theme: "minimal-mistakes-jekyll"
+# remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -133,4 +134,5 @@ defaults:
       layout: "single"
 
 sass:
-  style: compressed
+  sass_dir: _sass
+  style: expanded
