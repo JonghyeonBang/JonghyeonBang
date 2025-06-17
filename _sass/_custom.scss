@@ -4,4 +4,11 @@
 a {
     color: #1350c1;
   }
+
+.u-photo {
+    display: block;        /* inline 이미지라면 block으로 바꿔도 좋습니다 */
+    max-width: 300px;      /* 너비 최대값 */
+    width: 100%;           /* 컨테이너 너비에 맞춰 늘어나지만 */
+    height: auto;          /* 높이는 비율에 맞춰 자동 조정 */
+  }
   
