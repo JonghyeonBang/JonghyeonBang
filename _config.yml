@@ -5,12 +5,7 @@ baseurl: "/JonghyeonBang"                # 리포지토리 이름을 그대로
 title: "Jonghyeon Bang's Website"
 description: "I try to make my own website"
 
-# 원격 테마 선언
-remote_theme: andreondra/jekyll-theme-simplex
-
-# 필요한 플러그인
-plugins:
-  - jekyll-remote-theme
+theme: jekyll-theme-simplex
 
 # 네비게이션 메뉴
 navigation:
