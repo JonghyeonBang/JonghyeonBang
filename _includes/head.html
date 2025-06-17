@@ -1,49 +1,28 @@
-<link rel="stylesheet" href="{{ site.url }}/assets/fonts/fonts.css"/>
-<link rel="stylesheet" href="{{ site.url }}/assets/style.css"/>
-<link rel="stylesheet" href="{{ site.url }}/assets/js/lity.min.css"/>
+<meta charset="utf-8">
 
-{% if site.favicon != nil %}
-<link rel='shortcut icon' type='image/x-icon' href='{{ site.favicon }}' />
-{% endif %}
+{% include seo.html %}
 
-<meta charset="UTF-8">
+{% unless site.atom_feed.hide %}
+  <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+{% endunless %}
+
+{%- comment %} https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present {% endcomment -%}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta property="og:site_name" content="{{ site.title }}" />
-<meta 
-    property="og:title"
-    content="
-        {% if page.title != nil %}
-            {{page.title}}
-        {% else %}
-            {{site.title}}
-        {% endif %}
-    " 
-/>
-{% if page.og_description != nil %}
-    <meta property="og:description" content="{{ page.og_description }}" />
-{% endif %}
-<meta property="og:url" content="{{ site.url }}/{{ page.url }}" />
-{% if page.og_type != nil %}
-    <meta property="og:type" content="{{ page.og_type }}" />
-{% else %}
-    <meta property="og:type" content="article" />
-{% endif %}
-{% if page.og_image != nil %}
-    <meta property="og:image" content="{{ site.url }}/{{ page.og_image }}" />
-    <meta property="og:image:secure_url" content="{{ site.url }}/{{ page.og_image }}" />
-{% endif %}
-{% if page.fb_app_id != nil %}
-    <meta property="fb:app_id" content="{{ page.fb_app_id }}" />
-{% else if site.fb_app_id != nil %}
-    <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
-{% endif %}
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  {% if site.enable_copy_code_button -%}
+    window.enable_copy_code_button = true;
+  {%- endif %}
+</script>
 
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
-<title>
-    {% if page.title != nil %}
-        {{page.title}}
-    {% else %}
-        {{site.title}}
-    {% endif %}
-</title>
+{% if site.head_scripts %}
+  {% for script in site.head_scripts %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% endif %}
