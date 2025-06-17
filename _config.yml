@@ -18,6 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# git add .
+# git commit -m "Save all"
+# git push
+
 title: Hello, I'm Jonghyeon Bang
 email: jhbang@vt.edu
 description: >- # this means to ignore newlines until "baseurl:"
@@ -73,7 +77,8 @@ author:
   location         : "South Korea"
 
 # Build settings
-theme: "minimal-mistakes-jekyll"
+# theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
