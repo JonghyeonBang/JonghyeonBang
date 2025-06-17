@@ -131,3 +131,6 @@ defaults:
       type: "posts"
     values: 
       layout: "single"
+
+sass:
+  style: compressed
