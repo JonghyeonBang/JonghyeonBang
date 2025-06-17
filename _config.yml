@@ -22,7 +22,7 @@
 # git commit -m "Save all"
 # git push
 
-title: Hello, I'm Jonghyeon Bang
+title: Good to see you!
 email: jhbang@vt.edu
 description: >- # this means to ignore newlines until "baseurl:"
   My personal blog
@@ -73,7 +73,7 @@ pagination:
 author:
   name             : "Jonghyeon Bang"
   avatar           : "/assets/images/Jonghyeon_face.JPG"
-  bio              : "Signal Processing Engineer"
+  bio              : "Radar Signal Processing Engineer"
   location         : "South Korea"
 
 # Build settings
