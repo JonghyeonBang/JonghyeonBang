@@ -1,12 +1,12 @@
 ---
 layout: collection
-title: "Publications"
-permalink: /publication/
+title: "Projects"
+permalink: /project/
 ---
 
-<div class="publications">
+<div class="projects">
   {% for post in site.posts %}
-    {% if post.categories contains "Publication" %}
+    {% if post.categories contains "Projects" %}
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt }}</p>
     {% endif %}

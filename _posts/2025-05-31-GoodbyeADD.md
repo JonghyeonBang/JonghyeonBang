@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: posts
 title: "Good bye, ADD (05.31.2025.)"
 date: 2025-05-31
 categories: 
