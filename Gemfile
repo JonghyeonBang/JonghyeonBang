@@ -10,6 +10,6 @@ gem "jekyll-paginate"
 gem "jekyll-gist"
 gem "csv"
 gem "base64"
-gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_plugins
 gem "jekyll-remote-theme", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
