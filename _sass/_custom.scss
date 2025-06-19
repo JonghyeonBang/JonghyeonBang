@@ -12,3 +12,8 @@ a {
     height: auto;          /* 높이는 비율에 맞춰 자동 조정 */
   }
   
+hr {
+  border: none;
+  border-top: 1px solid #666666;
+  margin: 2em 0;
+}
