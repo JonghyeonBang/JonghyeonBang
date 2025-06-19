@@ -1,5 +1,5 @@
 
-I'm a Ph.D. student at [Virginia Tech](https://www.vt.edu/).
+Hi, all!. I'm a Ph.D. student at [Virginia Tech](https://www.vt.edu/).
 
 I'm interested in developing radar signal processing algorithms to extract meaningful data. I have expereince with signal processing for passive radar, LPI radar, and SAR. Currently, my research foucses on exploring the glaciers of Greenland using passive radar under the guidance of Professor [Mike Willis](https://scholar.google.com/citations?hl=en&user=EsBarIgAAAAJ&view_op=list_works&sortby=pubdate).
 
