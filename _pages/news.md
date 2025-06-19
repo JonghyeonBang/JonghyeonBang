@@ -5,10 +5,14 @@ permalink: /news/
 ---
 
 <div class="News">
-  {% for post in site.posts %}
-    {% if post.categories contains "News" %}
+  {% assign all_news = site.posts | where: "categories", "News" %}
+  {% for post in all_news %}
+    <div class="news-item">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt }}</p>
-    {% endif %}
+    </div>
+    {% unless forloop.last %}
+      <hr>
+    {% endunless %}
   {% endfor %}
 </div>
