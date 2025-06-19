@@ -119,9 +119,6 @@ plugins:
 #       layout: "page"
 
 collections:
-  project:
-    output: true
-    permalink: /project/:title/
   publication:
     output: true
     permalink: /publication/:title/

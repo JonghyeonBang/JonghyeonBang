@@ -1,7 +1,10 @@
 
-I'm interested in developing radar signal processing algorithms that help extract meaningful data — and I'm also into combining signal processing with deep learning! Currently, I'm pursuing my Ph.D. in Geosciences at [Virginia Tech](https://www.vt.edu/), where I'm working with [Professor Mike Willis](https://scholar.google.com/citations?hl=en&user=EsBarIgAAAAJ&view_op=list_works&sortby=pubdate) on exploring the glaciers of Greenland using passive radar.
+I'm a Ph.D. student at [Virginia Tech](https://www.vt.edu/).
 
-I earned both my B.S. and M.S. degrees in Electronics Engineering from [Pusan National University](https://www.pusan.ac.kr/eng/Main.do). During that time, I worked on signal processing for passive radar and LPI radar. After graduation, I joined the [Agency for Defense Development](https://www.add.re.kr/eps), where I conducted research on SAR jamming techniques in the field of electronic warfare.
+I'm interested in developing radar signal processing algorithms to extract meaningful data. I have expereince with signal processing for passive radar, LPI radar, and SAR. Currently, my research foucses on exploring the glaciers of Greenland using passive radar under the guidance of Professor [Mike Willis](https://scholar.google.com/citations?hl=en&user=EsBarIgAAAAJ&view_op=list_works&sortby=pubdate).
+
+Want to know more? Take a look at my CV!
+
 <div style="
   border: 1px solid #ccc;
   padding: 5px;
