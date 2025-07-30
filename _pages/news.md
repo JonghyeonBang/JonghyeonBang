@@ -8,7 +8,7 @@ permalink: /news/
   {% assign all_news = site.posts | where: "categories", "News" %}
   {% for post in all_news %}
     <div class="news-item">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h3>{{ post.title }}</h3>
       <p>{{ post.excerpt }}</p>
     </div>
     {% unless forloop.last %}
