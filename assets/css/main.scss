@@ -13,3 +13,32 @@
 // ③ 내 커스텀 스타일 (예: _sass/custom.scss에 작성)
 @import "custom";
 
+/* ─────────────────────────────────────────
+   Contact 박스 3개를 대칭 배치
+───────────────────────────────────────── */
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.contact-box {
+  display: block;
+  width: 180px;
+  padding: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.contact-box:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
