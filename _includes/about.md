@@ -1,12 +1,8 @@
 
-Hi, all! I'm a Ph.D. student in Geosciences at [Virginia Tech](https://www.vt.edu/) with a background in various radar signal processing techniques, hands-on field testing, and deep learning.
+Hi, there! I'm a Ph.D. student in Geosciences at [Virginia Tech](https://www.vt.edu/) with a background in various radar signal processing techniques, hands-on field testing, and deep learning.
 
-I previously contributed to national defense R&D and now focus on applying ground-based and spaceborne radar technologies to investigate glaciers, icebergs, and rock faces in Greenland.
+I received both my bachelor's and master's degrees from [Pusan National Univeristy]([www.pusan.ac.kr](https://www.pusan.ac.kr/eng/Main.do)) in South Korea, and contributed to national defense R&D at the [Agency for Defense Development](https://www.add.re.kr/eps) for two years after graduation.
+
+I am currently conducting research under the guidance of Professor Mike Willis, using radar remote sensing to study glaciers, icebergs, and rock faces in Greenland.
 
 Want to know more? Take a look at my CV!
-
-<div class="contact-container">
-  <a href="mailto:jhbang@vt.edu" class="contact-box">Email</a>
-  <a href="https://www.linkedin.com/in/jong-hyeon-bang-7208272a3/" class="contact-box" target="_blank">LinkedIn</a>
-  <a href="https://scholar.google.com/citations?user=6WOR4DkAAAAJ&hl=ko" class="contact-box" target="_blank">Google Scholar</a>
-</div>
