@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: "News"
+title: " "
 permalink: /news/
 ---
 

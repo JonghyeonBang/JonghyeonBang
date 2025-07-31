@@ -75,6 +75,16 @@ author:
   avatar           : "assets/images/jonghyeon_face.jpg"
   bio              : "Radar Signal Processing Engineer"
   location         : "South Korea"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:jhbang@vt.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/jong-hyeon-bang-7208272a3/"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=6WOR4DkAAAAJ&hl=ko"
 
 # Build settings
 # theme: "minimal-mistakes-jekyll"
@@ -86,7 +96,7 @@ plugins:
   - jekyll-gist
   - jekyll-include-cache
   - jekyll-remote-theme
-
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

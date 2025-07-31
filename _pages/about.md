@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: "About Me"
+title: " "
 permalink: /about/
 nav_exclude: true
 ---
