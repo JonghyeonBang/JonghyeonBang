@@ -73,8 +73,8 @@ pagination:
 author:
   name             : "Jonghyeon Bang"
   avatar           : "assets/images/jonghyeon_face.jpg"
-  bio              : "Radar Signal Processing Engineer"
-  location         : "South Korea"
+  bio              : "Signal Processing Engineer"
+  location         : "United States"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
