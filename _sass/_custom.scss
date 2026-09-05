@@ -29,12 +29,15 @@ hr {
 .profile-card { border: 1px solid #d8dce0; border-radius: 8px; padding: 1.4rem; }
 .profile-card img { display: block; width: 100%; height: auto; max-width: 220px; margin: 0 auto 1rem; }
 .profile-card h2 { margin: 0; }
+.profile-card .profile-role { white-space: nowrap; font-size: .72rem; letter-spacing: -.02em; margin-bottom: .5rem; }
 .profile-card p { margin-bottom: .5rem; }
 .profile-card ul { list-style: none; padding: 0; font-size: .85rem; }
 .profile-card li { margin: .4rem 0; }
 .profile-about, .profile-focus, .profile-recent { margin-top: 3rem; }
 .profile-about { max-width: 850px; line-height: 1.8; }
 .profile-focus ul { display: grid; grid-template-columns: 1fr; gap: .65rem; padding-left: 1.1rem; }
+.profile-focus h2 { font-size: 1rem; line-height: 1.5; margin-bottom: .65rem; }
+.profile-focus ul { gap: .3rem; line-height: 1.5; margin-top: 0; }
 .profile-latest { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.5rem; margin-top: 3rem; }
 .profile-latest section { border-top: 2px solid #1350c1; padding-top: 1rem; }
 .profile-latest h2 { font-size: 1.1rem; }

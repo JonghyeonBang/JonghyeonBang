@@ -5,6 +5,9 @@ headline_lines:
   - understanding our changing environment.
 summary: I build ground-based GNSS passive radar systems and the signal processing methods that turn their data into measurements of unstable slopes in Greenland.
 focus:
-  - Radar instrumentation — SDR receivers, synchronized timing, SBC-based edge computing, and field-ready hardware
-  - Signal processing — From raw IQ data to synthetic-aperture radar imagery
-  - Field deployment — Installing, operating, and validating autonomous radar systems in Greenland fjords
+  - label: Radar systems
+    text: Ground-based GNSS passive radar built with SDR receivers, synchronized timing, SBC-based edge computing, and field-ready hardware
+  - label: Signal processing
+    text: From raw IQ data to synthetic-aperture imagery
+  - label: Field deployment
+    text: Installing, operating, and validating autonomous radar systems in Greenland fjords
