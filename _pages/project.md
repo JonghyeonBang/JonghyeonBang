@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Projects
-permalink: /projects/
+permalink: /project/
 ---
 <h1>Projects</h1>
 {% assign items = site.posts | where_exp: 'post', 'post.categories contains "Projects"' %}

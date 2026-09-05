@@ -1,0 +1,5 @@
+{% assign groups = include.items | group_by_exp: 'item', 'item.date | date: "%Y"' %}
+{% for year in groups %}<section><h2>{{ year.name }}</h2><ul class="research-list">{% for item in year.items %}
+<li class="research-item"><a tabindex="-1" aria-hidden="true" href="{{ item.url | relative_url }}">{% if item.thumbnail %}<img src="{{ item.thumbnail | relative_url }}" alt="" loading="lazy">{% else %}<span class="research-initial">{{ item.title | slice: 0 }}</span>{% endif %}</a>
+<div><h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>{% if item.venue %}<p>{{ item.venue }}</p>{% endif %}{% if item.authors %}<p>{{ item.authors }}</p>{% endif %}{% if item.status %}<p>{{ item.status | capitalize }}</p>{% endif %}<p>{{ item.summary }}</p>{% if item.paper_url %}<a href="{{ item.paper_url }}">Full text</a>{% endif %}</div></li>
+{% endfor %}</ul></section>{% endfor %}

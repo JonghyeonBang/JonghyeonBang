@@ -1,7 +1,8 @@
 ---
-layout: posts
+layout: single
 title: "Hi, Virginia Tech! (08.11.2025.)"
 date: 2025-06-02
+display_date: 2025-08-11
 categories: 
   - News
 ---

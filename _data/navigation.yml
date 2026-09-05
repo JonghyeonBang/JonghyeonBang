@@ -1,10 +1,11 @@
-# main links
 main:
   - title: "About Me"
-    url: /about/
+    url: /
+  - title: "Publications"
+    url: /publication/
   - title: "Projects"
-    url: /project/  
+    url: /projects/
   - title: "News"
     url: /news/
-  - title: "CV"
+  - title: "Resume"
     url: https://docs.google.com/document/d/1ECVwVOK6XeknRG3mwFJrAzX-magpqHUxvLg1A5z8dk4/edit?usp=sharing

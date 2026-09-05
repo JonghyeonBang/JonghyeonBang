@@ -1,0 +1,14 @@
+{% assign home = site.data.home %}
+<section class="profile-hero">
+  <div><p class="section-label">{{ home.role }}</p><h1>{{ home.headline }}</h1><p class="hero-summary">{{ home.summary }}</p>
+  <div class="profile-actions"><a class="btn btn--primary" href="{{ '/publication/' | relative_url }}">View Publications</a><a class="btn" href="{{ '/projects/' | relative_url }}">Explore Projects</a><a class="btn" href="{{ '/news/' | relative_url }}">Latest Updates</a><a class="btn" href="{{ site.data.navigation.main.last.url }}">Resume</a></div></div>
+  <aside class="profile-card"><img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="300" height="300"><p class="section-label">Profile</p><h2>{{ site.author.name }}</h2><p>{{ site.author.bio }}</p><p>{{ site.author.location }}</p><ul>{% for link in site.author.links %}<li><a href="{{ link.url }}">{{ link.label }}</a></li>{% endfor %}</ul></aside>
+</section>
+<section class="profile-about"><p class="section-label">About</p>{% capture bio %}{% include about.md %}{% endcapture %}{{ bio | markdownify }}<div class="profile-focus"><h2>Current areas of work</h2><ul>{% for area in home.focus %}<li>{{ area }}</li>{% endfor %}</ul></div></section>
+{% assign publications = site.publications | sort: 'date' | reverse %}
+{% assign projects = site.posts | where_exp: 'post', 'post.categories contains "Projects"' %}
+{% assign news = site.posts | where_exp: 'post', 'post.categories contains "News"' %}
+<div class="profile-latest">
+{% assign item = publications.first %}<section><p class="section-label">Latest Publication</p>{% if item %}<h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2><p>{{ item.venue }}</p><p>{{ item.summary }}</p>{% else %}<p>Publications will be added soon.</p>{% endif %}</section>
+{% assign item = news.first %}<section><p class="section-label">Latest Update</p>{% if item %}<h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2><time datetime="{{ item.display_date | default: item.date | date_to_xmlschema }}">{{ item.display_date | default: item.date | date: '%B %-d, %Y' }}</time>{% endif %}</section>
+</div>

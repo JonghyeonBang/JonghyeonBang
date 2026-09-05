@@ -1,8 +1,6 @@
 ---
-layout: collection
-title: " "
+layout: profile
+title: About Me
 permalink: /about/
-nav_exclude: true
 ---
-
-{% include about.md %}
+{% include profile-home.html %}

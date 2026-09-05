@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+SITE_ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$SITE_ROOT"
+if [[ -x "$SITE_ROOT/vendor/ruby/bin/ruby" ]]; then
+  SITE_RUBY="$SITE_ROOT/vendor/ruby"
+  export PATH="$SITE_RUBY/bin:$PATH"
+  export LD_LIBRARY_PATH="$SITE_RUBY/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+  export RUBYLIB="$SITE_RUBY/lib/ruby/3.2.0:$SITE_RUBY/lib/ruby/3.2.0/x86_64-linux"
+  exec "$SITE_RUBY/bin/ruby" "$SITE_RUBY/bin/bundle" exec jekyll "$@"
+fi
+exec bundle exec jekyll "$@"
