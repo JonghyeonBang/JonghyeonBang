@@ -9,6 +9,6 @@
 {% assign projects = site.posts | where_exp: 'post', 'post.categories contains "Projects"' %}
 {% assign news = site.posts | where_exp: 'post', 'post.categories contains "News"' %}
 <div class="profile-latest">
-{% assign item = publications.first %}<section><p class="section-label">Latest Publication</p>{% if item %}<h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2><p>{{ item.venue }}</p><p>{{ item.summary }}</p>{% else %}<p>Publications will be added soon.</p>{% endif %}</section>
+{% assign item = publications.first %}<section><p class="section-label">Latest Publication</p>{% if item %}<h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2><p>{{ item.venue }} · {{ item.display_date | default: item.date | date: '%B %Y' }}</p><p>{{ item.summary }}</p>{% else %}<p>Publications will be added soon.</p>{% endif %}</section>
 {% assign item = news.first %}<section><p class="section-label">Latest Update</p>{% if item %}<h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2><time datetime="{{ item.display_date | default: item.date | date_to_xmlschema }}">{{ item.display_date | default: item.date | date: '%B %-d, %Y' }}</time>{% endif %}</section>
 </div>

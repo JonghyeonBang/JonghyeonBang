@@ -1,7 +1,8 @@
 ---
 layout: publication
 title: "Interference Suppression for an FM-Radio-Based Passive Radar Via Deep Convolutional Autoencoder"
-date: 2023-01-01
+date: 2023-02-01
+display_date: 2023-02-01
 venue: "IEEE Transactions on Aerospace and Electronic Systems"
 summary: "Deep learning for interference suppression and target detection in passive radar."
 thumbnail: /assets/images/PBR-1.png

@@ -5,6 +5,6 @@ headline_lines:
   - understanding our changing environment.
 summary: I develop ground-based GNSS passive radar systems and signal processing methods to monitor unstable slopes in Greenland.
 focus:
-  - SDR-based ground GNSS passive remote sensing
-  - Geophysical parameter estimation for rock faces and icebergs in Greenland fjords
-  - Radar signal processing and field measurement systems
+  - Ground-based GNSS passive radar systems for remote sensing
+  - Signal processing for monitoring unstable slopes and geophysical change in Greenland
+  - Field-deployed radar measurement systems and geophysical parameter estimation

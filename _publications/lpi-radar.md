@@ -1,7 +1,8 @@
 ---
 layout: publication
 title: "Accurate Estimation of LPI Radar Pulse Train Parameters via Change Point Detection"
-date: 2023-01-01
+date: 2023-02-06
+display_date: 2023-02-06
 venue: "IEEE Access"
 summary: "Detection and parameter estimation of low-probability-of-intercept radar signals."
 thumbnail: /assets/images/LPI-1.png
