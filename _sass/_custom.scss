@@ -65,3 +65,12 @@ hr {
 .profile-about { max-width: none; }
 .profile-focus { margin-top: 1.5rem; }
 @media (max-width: 760px) { .profile-latest { grid-template-columns: 1fr; } }
+
+/* Compact hero and accessible icon links. */
+.profile-hero h1 { font-size: clamp(1.25rem, 2.5vw, 1.4rem); line-height: 1.3; }
+@media (min-width: 1024px) { .hero-title-line { display: block; } }
+.profile-card .profile-location { display: flex; align-items: center; gap: .5rem; font-size: .75rem; color: #5c6268; margin-top: .65rem; }
+.profile-card .profile-social-links { display: flex; gap: .65rem; margin: 1rem 0 0; }
+.profile-card .profile-social-links li { margin: 0; }
+.profile-social-links a { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 1px solid #d8dce0; border-radius: 50%; text-decoration: none; font-size: 1rem; }
+.profile-social-links a:hover { background: #eef3fc; border-color: #1350c1; }
