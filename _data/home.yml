@@ -6,8 +6,8 @@ headline_lines:
 summary: I build ground-based GNSS passive radar systems and the signal processing methods that turn their data into measurements of unstable slopes in Greenland.
 focus:
   - label: Radar systems
-    text: Ground-based GNSS passive radar built with SDR receivers, synchronized timing, SBC-based edge computing, and field-ready hardware
+    text: Ground-based GNSS passive radar built with software-defined radios, single-board computers, and field-ready hardware
   - label: Signal processing
-    text: From raw IQ data to synthetic-aperture imagery
+    text: From raw IQ data to synthetic-aperture imagery, developing the processing chain to extract meaningful information from unstable slopes
   - label: Field deployment
     text: Installing, operating, and validating autonomous radar systems in Greenland fjords

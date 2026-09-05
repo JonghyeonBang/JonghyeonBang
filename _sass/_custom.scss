@@ -36,8 +36,10 @@ hr {
 .profile-about, .profile-focus, .profile-recent { margin-top: 3rem; }
 .profile-about { max-width: 850px; line-height: 1.8; }
 .profile-focus ul { display: grid; grid-template-columns: 1fr; gap: .65rem; padding-left: 1.1rem; }
-.profile-focus h2 { font-size: 1rem; line-height: 1.5; margin-bottom: .65rem; }
-.profile-focus ul { gap: .3rem; line-height: 1.5; margin-top: 0; }
+.profile-focus { font-size: 1rem; line-height: 1.8; }
+.profile-focus h2 { font-size: 1rem; line-height: inherit; margin-bottom: .65rem; }
+.profile-focus ul { gap: .3rem; line-height: inherit; margin-top: 0; }
+.profile-focus li { font-size: 1rem; }
 .profile-latest { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.5rem; margin-top: 3rem; }
 .profile-latest section { border-top: 2px solid #1350c1; padding-top: 1rem; }
 .profile-latest h2 { font-size: 1.1rem; }
