@@ -5,6 +5,6 @@ My current work focuses on a ground-based GNSS passive radar system. Rather than
 
 I also develop the processing chain that connects the instrument to the final measurement, from raw IQ data and satellite tracking to range–Doppler processing and synthetic-aperture imagery. The goal is to extract useful information from unstable rock faces and support long-term monitoring in environments that are difficult to access.
 
-Before Virginia Tech, I received my B.S. and M.S. from [Pusan National University](https://www.pusan.ac.kr/eng/Main.do) in South Korea and spent two years at the [Agency for Defense Development](https://www.add.re.kr/eps), where I worked on a SAR jamming project. That experience shaped my interest in radar signal processing, practical system development, and the connection between algorithms and real-world measurements.
+Before Virginia Tech, I received my B.S. and M.S. degrees from the Department of Electronics Engineering at [Pusan National University](https://www.pusan.ac.kr/eng/Main.do) in South Korea and spent two years at the [Agency for Defense Development](https://www.add.re.kr/eps), where I worked on a SAR jamming project. That experience shaped my interest in radar signal processing, practical system development, and the connection between algorithms and real-world measurements.
 
 Want to know more? Take a look at my CV!
