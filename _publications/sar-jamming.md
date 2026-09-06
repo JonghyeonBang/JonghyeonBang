@@ -4,7 +4,7 @@ title: "Deceptive Jamming for Spaceborne SAR Using Estimated Signal Parameters a
 date: 2024-11-14
 display_date: 2024-11-14
 venue: "IEEE Access"
-summary: "Developing deceptive jamming methods that generate false targets within a spaceborne SAR beam footprint."
+summary: "Generating false targets at intended locations within a spaceborne SAR beam footprint by estimating signal parameters and exploiting the phase of intercepted SAR signals."
 contributions:
   - "Conceived and led the study, developed the signal-parameter estimation and deceptive-signal generation methods, and wrote the manuscript as the corresponding author."
 thumbnail: /assets/images/SARJAM.png
