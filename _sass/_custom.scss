@@ -85,3 +85,17 @@ hr {
 .profile-social-links a:hover { background: #eef3fc; border-color: #1350c1; }
 .profile-card { padding: 1rem; }
 .profile-hero { gap: 2rem; }
+
+.mobile-navigation { display: none; }
+@media (max-width: 760px) {
+  .greedy-nav .visible-links,
+  .greedy-nav .hidden-links,
+  .greedy-nav .greedy-nav__toggle { display: none !important; }
+  .mobile-navigation { display: block; margin-left: auto; position: relative; }
+  .mobile-navigation summary { display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; cursor: pointer; list-style: none; }
+  .mobile-navigation summary::-webkit-details-marker { display: none; }
+  .mobile-navigation summary:focus-visible { outline: 2px solid #1350c1; outline-offset: 2px; }
+  .mobile-navigation ul { position: absolute; right: 0; top: 100%; z-index: 30; display: block; min-width: 180px; margin: .5rem 0 0; padding: .5rem 0; list-style: none; background: #fff; border: 1px solid #d8dce0; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,.1); }
+  .mobile-navigation li { display: block; }
+  .greedy-nav .mobile-navigation a { display: block; margin: 0; padding: .6rem 1rem; font-size: .85rem; }
+}

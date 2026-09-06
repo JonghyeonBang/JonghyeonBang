@@ -33,6 +33,14 @@
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
+        <details class="mobile-navigation">
+          <summary aria-label="Main menu"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18M3 12h18M3 19h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary>
+          <ul>
+            {% for link in site.data.navigation.main %}
+            <li><a href="{{ link.url | relative_url }}"{% if link.target %} target="{{ link.target }}"{% endif %}>{{ link.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
       </nav>
     </div>
   </div>
