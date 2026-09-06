@@ -59,6 +59,7 @@ hr {
 .research-item img { width: 100%; height: 100px; object-fit: contain; }
 .research-initial { display: grid; place-items: center; height: 100px; background: #f2f3f3; color: #1350c1; font-size: 2rem; }
 .research-item p { font-size: .85rem; }
+.publication-points { margin: .7rem 0; padding-left: 1.15rem; font-size: .85rem; line-height: 1.6; }
 .profile-page a { overflow-wrap: anywhere; }
 .profile-page a:focus-visible { outline: 3px solid #1350c1; outline-offset: 4px; }
 @media (max-width: 760px) {
