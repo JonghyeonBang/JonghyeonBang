@@ -8,6 +8,9 @@ summary: "Estimating the time of arrival, pulse width, and pulse repetition inte
 contributions:
   - "Conceived the study, developed the change-point-detection-based estimation method, designed the experiments, and wrote the manuscript as the first author."
 thumbnail: /assets/images/LPI-1.png
+thumbnails:
+  - /assets/images/LPI-1.png
+  - /assets/images/LPI-2.png
 paper_url: https://ieeexplore.ieee.org/document/10038535
 ---
 - Estimating the time of arrival, pulse width, and pulse repetition interval of weak LPI radar pulse trains across multiple modulation schemes.

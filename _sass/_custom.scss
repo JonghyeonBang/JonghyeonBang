@@ -62,6 +62,9 @@ hr {
 .publication-card { display: block; }
 .publication-image-button { display: block; width: 100%; margin: 0 0 1.15rem; padding: 0; border: 0; cursor: zoom-in; background: #f7f8f8; }
 .publication-image-button img, .publication-card > .research-initial { display: block; width: 100%; max-width: 860px; height: 300px; object-fit: contain; margin: 0 auto; background: #f7f8f8; }
+.publication-image-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1.15rem; }
+.publication-image-gallery .publication-image-button { margin: 0; }
+.publication-image-gallery .publication-image-button img { max-width: none; }
 .publication-card > div { width: 100%; }
 .publication-image-button:focus-visible { outline: 3px solid #1350c1; outline-offset: 4px; }
 .publication-lightbox { width: 94vw; max-width: 1200px; max-height: 94vh; padding: 2.5rem 1rem 1rem; border: 0; border-radius: 8px; background: rgba(255,255,255,.98); }
@@ -108,4 +111,5 @@ hr {
   .mobile-navigation ul { position: absolute; right: 0; top: 100%; z-index: 30; display: block; min-width: 180px; margin: .5rem 0 0; padding: .5rem 0; list-style: none; background: #fff; border: 1px solid #d8dce0; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,.1); }
   .mobile-navigation li { display: block; }
   .greedy-nav .mobile-navigation a { display: block; margin: 0; padding: .6rem 1rem; font-size: .85rem; }
+  .publication-image-gallery { grid-template-columns: 1fr; }
 }

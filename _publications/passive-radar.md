@@ -8,6 +8,9 @@ summary: "Suppressing interference components in the range–Doppler maps of FM-
 contributions:
   - "Supported the overall study through technical discussions, manuscript review, and refinement of the research presentation and results."
 thumbnail: /assets/images/PBR-1.png
+thumbnails:
+  - /assets/images/PBR-1.png
+  - /assets/images/PBR-2.png
 paper_url: https://ieeexplore.ieee.org/document/10032709
 ---
 - Suppressing interference components in the range–Doppler maps of FM-radio-based passive radar systems to improve target detection.
