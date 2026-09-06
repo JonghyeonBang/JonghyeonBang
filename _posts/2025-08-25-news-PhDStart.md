@@ -6,4 +6,4 @@ categories:
   - News
 ---
 
-Began my Ph.D. in Geosciences, working with Dr. Mike Willis on ground-based GNSS passive radar.
+Began my Ph.D. in Geosciences under the supervision of Dr. Mike Willis.

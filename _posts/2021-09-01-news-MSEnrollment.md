@@ -2,7 +2,6 @@
 layout: single
 title: "Started my M.S. at Pusan National University"
 date: 2021-09-01
-date_label: "Sep"
 categories:
   - News
 ---

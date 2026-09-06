@@ -9,7 +9,7 @@ permalink: /news/
 {% for year in years %}
 <section><h2>{{ year.name }}</h2><ul class="update-list news-list">
 {% for item in year.items %}
-<li>{% include news-date.html item=item %}<div class="news-content"><div class="news-title">{{ item.title }}</div>{% assign description = item.content | strip_html | strip %}{% if description != '' %}<p class="news-description">{{ description }}</p>{% endif %}</div></li>
+<li>{% include news-date.html item=item %}<div class="news-content"><div class="news-title">{{ item.title }}</div>{% assign description = item.content | strip_html | strip %}{% if description != '' %}<div class="news-description">{{ item.content }}</div>{% endif %}</div></li>
 {% endfor %}
 </ul></section>
 {% endfor %}

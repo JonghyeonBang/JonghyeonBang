@@ -1,4 +1,4 @@
 ---
 layout: profile
 ---
-<article><p class="section-label">Publication · {{ page.date | date: '%Y' }}</p><h1>{{ page.title }}</h1><p>{{ page.venue }}</p>{% if page.authors %}<p>{{ page.authors }}</p>{% endif %}{{ content }}<p><a href="{{ '/publication/' | relative_url }}">All publications</a></p></article>
+<article><p class="section-label">Publication · {{ page.display_date | default: page.date | date: '%B %Y' }}</p><h1>{{ page.title }}</h1><p>{{ page.venue }}</p>{% if page.authors %}<p>{{ page.authors }}</p>{% endif %}{{ content }}<p><a href="{{ '/publication/' | relative_url }}">All publications</a></p></article>

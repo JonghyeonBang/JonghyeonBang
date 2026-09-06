@@ -7,8 +7,7 @@ categories:
   - News
 ---
 
-Thanks for marrying me, [Minsun](https://min-sunnying.github.io/)😆❤️ 
+Thanks for marrying me, [Minsun](https://www.minsun.kim/)😆❤️
 
 <!-- <img src="/assets/images/masterdefense.jpg" alt="drawing" width="200" style="margin-left: auto; margin-right: auto; display: block;"/> -->
-
 
