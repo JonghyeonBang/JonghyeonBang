@@ -2,7 +2,7 @@
 layout: single
 title: "Fieldwork in Greenland."
 date: 2026-07-10
-date_label: "Jul 10–Aug 9, 2026"
+date_label: "Jul 10–Aug 9"
 categories:
   - News
 ---
