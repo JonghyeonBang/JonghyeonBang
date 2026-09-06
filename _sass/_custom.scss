@@ -49,6 +49,8 @@ hr {
 .update-list { list-style: none; padding: 0; }
 .update-list li { display: grid; grid-template-columns: 7rem minmax(0,1fr) auto; gap: 1rem; border-bottom: 1px solid #d8dce0; padding: 1rem 0; }
 .update-list time, .update-list span { font-size: .75rem; }
+.news-list li { grid-template-columns: 9rem minmax(0, 1fr); }
+.news-description { margin: .35rem 0 0; font-size: .8rem; line-height: 1.6; }
 .research-list { list-style: none; padding: 0; }
 .research-item { display: grid; grid-template-columns: 130px minmax(0,1fr); gap: 1.5rem; padding: 1.7rem 0; border-bottom: 1px solid #d8dce0; }
 .research-item h3 { margin-top: 0; font-size: 1.15rem; }
